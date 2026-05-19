@@ -1,6 +1,10 @@
+[workspace]
+resolver = "3"
+members = ["crates/ipomea-primitives", "crates/ipomea-storage","crates/ipomea-type-definitions"]
+
 [package]
 name = "ipomea-blockchain-core"
-description = "Ipomea Blockchain is a blockchain that blossoms into "
+description = "Ipomea Blockchain is a blockchain that blossoms into the night time."
 version = "0.1.0"
 edition = "2024"
 

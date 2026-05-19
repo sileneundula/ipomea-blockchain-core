@@ -1,0 +1,9 @@
+[package]
+name = "ipomea-primitives"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fixedstr = {version="0.5.10",features=["serde"]}
+openinternetcryptographykeys = "0.2.0"
+serde = {version="1.0.228",features=["derive"]}

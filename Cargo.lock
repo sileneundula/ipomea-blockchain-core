@@ -1164,6 +1164,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "ipomea-primitives"
+version = "0.1.0"
+dependencies = [
+ "fixedstr",
+ "openinternetcryptographykeys",
+ "serde",
+]
+
+[[package]]
+name = "ipomea-storage"
+version = "0.1.0"
+
+[[package]]
+name = "ipomea-type-definitions"
+version = "0.1.0"
+
+[[package]]
 name = "itoa"
 version = "1.0.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
